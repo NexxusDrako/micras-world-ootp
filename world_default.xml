@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+OOTP loads this file whenever the user creates a new game. You can edit this file as long as you watch the syntax. Please read the online manual section about customizing the world XML file.
+NATION tokens:
+use_hardcoded_ml_player_origins - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. Just disable it (set it to 0) or delete it and OOTP will not use the hard coded player distribution for that nation anymore.
+this_is_modern_usa - either 1 (=yes) or 0 (=no). If missing, the value will be set to 0. By default it's 1 for the USA nation record in the XML file. There should always be at least one nation with this flag enabled because OOTP needs it as the nation for pre-defined leagues, like NL or AL.
+
+When OOTP creates fictional players for modern US major leagues, it will need to find the following nations by name: Dominican Republic, Venezuela, Puerto Rico, Mexico, Canada, Cuba, Japan, Panama, Australia, South Korea, Germany, Aruba, England, The Netherlands, Italy, Spain, Taiwan. So you should not change the names for these nations if you want to simulate realistic major leagues!
+-->
+
+<WORLD id="1" name="default" required_ootp_version="13" file_version="OOTP Developments 2013-11-08 15:48:26">
+	<LANGUAGES>
+	<LANGUAGE id="0" name="U.S. (Modern)" />
+	<LANGUAGE id="1" name="Hispanic" />
+	<LANGUAGE id="2" name="Japanese" />
+	<LANGUAGE id="3" name="Korean" />
+	<LANGUAGE id="4" name="Chinese" />
+	<LANGUAGE id="5" name="Portugese" />
+	<LANGUAGE id="6" name="Dutch" />
+	<LANGUAGE id="7" name="German" />
+	<LANGUAGE id="8" name="French" />
+	<LANGUAGE id="9" name="Italian" />
+	<LANGUAGE id="10" name="Scandinavien" />
+	<LANGUAGE id="11" name="Finnish" />
+	<LANGUAGE id="12" name="Swedish" />
+	<LANGUAGE id="13" name="Russian" />
+	<LANGUAGE id="14" name="Czech" />
+	<LANGUAGE id="15" name="Polish" />
+	<LANGUAGE id="16" name="Scottish" />
+	<LANGUAGE id="17" name="Arabic" />
+	<LANGUAGE id="18" name="Irish" />
+	<LANGUAGE id="19" name="African" />
+	<LANGUAGE id="20" name="UK" />
+	<LANGUAGE id="21" name="Albanian" />
+	<LANGUAGE id="22" name="Serbian" />
+	<LANGUAGE id="23" name="Greek" />
+	<LANGUAGE id="24" name="Turkish" />
+	<LANGUAGE id="25" name="Danish" />
+	<LANGUAGE id="26" name="Armenian" />
+	<LANGUAGE id="27" name="Indian" />
+	<LANGUAGE id="28" name="Australian" />
+	<LANGUAGE id="29" name="Azerbaijan" />
+	<LANGUAGE id="30" name="Polynesian" />
+	<LANGUAGE id="31" name="Austrian" />
+	<LANGUAGE id="32" name="Canadian" />
+	<LANGUAGE id="34" name="Filipino" />
+	<LANGUAGE id="35" name="Romanian" />
+	<LANGUAGE id="36" name="Indonesian" />
+	<LANGUAGE id="37" name="Pakistani" />
+	<LANGUAGE id="38" name="Vietnamese" />
+	<LANGUAGE id="39" name="U.S. (Historical)" />
+	</LANGUAGES>
+	<CONTINENTS>
+	<CONTINENT id="1" name="CTBA" pop="10000000000" lid="0" abbr="CT" dem="CiboTap">
+        <NATIONS>
+        <NATION id="1" name="Vyktory" pop="31313313" lid="28" gender="0" bbqual="5" abbr="VYK" dem="Vyktoryan" time_zone="1" observes_dst="1">
+            <ETHNICITIES>
+            <ETHNICITY lid="28" pct="100" />
+            </ETHNICITIES>
+            <STATES>
+            <STATE id="1" name="Jamestown" pop="8819012" lid="0" abbr="JMS">
+                <CITIES>
+                <CITY id="1" name="Jamestown" pop="8819012" lid="0" lat="0.00" long="0.00" abbr="JMS" />
+                </CITIES>
+            </STATE>
+            <STATE id="2" name="Stamford" pop="4689225" lid="0" abbr="STM">
+                <CITIES>
+                <CITY id="2" name="Stamford" pop="4689225" lid="0" lat="0.00" long="0.00" abbr="STM" />
+                </CITIES>
+            </STATE>
+            <STATE id="3" name="Harrisville" pop="7833342" lid="0" abbr="HRS">
+                <CITIES>
+                <CITY id="3" name="Harrisville" pop="7833342" lid="0" lat="0.00" long="0.00" abbr="HRS" />
+                </CITIES>
+            </STATE>
+            <STATE id="4" name="Georgetown" pop="2189375" lid="0" abbr="GRG">
+                <CITIES>
+                <CITY id="4" name="Georgetown" pop="2189375" lid="0" lat="0.00" long="0.00" abbr="GRG" />
+                </CITIES>
+            </STATE>
+            </STATES>
+            <CAPITAL id="1" />
+        </NATION>
+            <NATION id="301" name="Mancunia" pop="25000000" lid="20" gender="0" bbqual="3" abbr="MNC" dem="Mancunian" time_zone="1" observes_dst="1">
+            <ETHNICITIES>
+            <ETHNICITY lid="20" pct="100" />
+            </ETHNICITIES>
+            <STATES>
+            <STATE id="5" name="NortH Mancunia" pop="10000000" lid="0" abbr="NMA">
+                <CITIES>
+                <CITY id="5" name="Den" pop="6000000" lid="0" lat="0.00" long="0.00" abbr="DEN" />
+                <CITY id="6" name="Newcastle" pop="3000000" lid="0" lat="0.00" long="0.00" abbr="NEW" />
+                <CITY id="7" name="Stone" pop="1000000" lid="0" lat="0.00" long="0.00" abbr="STO" />
+                </CITIES>
+            </STATE>
+            <STATE id="6" name="South Mancunia" pop="10000000" lid="0" abbr="SMA">
+                <CITIES>
+                <CITY id="8" name="Manchester" pop="5000000" lid="0" lat="0.00" long="0.00" abbr="MAN" />
+                <CITY id="9" name="Crewe" pop="5000000" lid="0" lat="0.00" long="0.00" abbr="CRE" />
+                </CITIES>
+            </STATE>
+            <STATE id="7" name="Wychwood" pop="5000000" lid="0" abbr="WYC">
+                <CITIES>
+                <CITY id="10" name="Wychwood" pop="5000000" lid="0" lat="0.00" long="0.00" abbr="WYC" />
+                </CITIES>
+            </STATE>
+            </STATES>
+            <CAPITAL id="5" />
+        </NATION>
+        </NATIONS>
+    </CONTINENT>  
+	</CONTINENTS>
+	<REGIONS>
+	<REGION id="66" sort_order="10" name="AUTO-REGION: Baseball Quality 5 Nations">
+	</REGION>
+	<REGION id="67" sort_order="20" name="AUTO-REGION: Baseball Quality 4+ Nations">
+	</REGION>
+	<REGION id="76" sort_order="21" name="AUTO-REGION: Baseball Quality 4 Nations">
+	</REGION>
+	<REGION id="68" sort_order="30" name="AUTO-REGION: Baseball Quality 3+ Nations">
+	</REGION>
+	<REGION id="77" sort_order="31" name="AUTO-REGION: Baseball Quality 3 Nations">
+	</REGION>
+	<REGION id="69" sort_order="40" name="AUTO-REGION: Baseball Quality 2+ Nations">
+	</REGION>
+	<REGION id="78" sort_order="41" name="AUTO-REGION: Baseball Quality 2 Nations">
+	</REGION>
+	<REGION id="70" sort_order="50" name="AUTO-REGION: Baseball Quality 1+ Nations">
+	</REGION>
+	<REGION id="79" sort_order="51" name="AUTO-REGION: Baseball Quality 1 Nations">
+	</REGION>
+	<REGION id="171" sort_order="52" name="AUTO-REGION: Baseball Quality 0 Nations">
+	</REGION>
+	</REGIONS>
+</WORLD>
